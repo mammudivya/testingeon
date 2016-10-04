@@ -1,0 +1,22 @@
+
+<suite name="Testingpages" verbose="10">
+  <!-- parameter name="selenium.host" value="localhost" />
+  <parameter name="selenium.port" value="3737" />
+  <parameter name="selenium.browser" value="*firefox" />
+  <parameter name="selenium.url" value="http://demo.opensourcecms.com/wordpress/" / -->>
+ 
+  <test name="Eon regression tests" preserve-order="true">
+    
+  <package>
+  
+  <package name="com.sample.testingeon.testingpages"/>
+   <classes>
+       <class name="testingpages.EonHomePageTests" />
+       <class name="testingpages.EonLoginTests" />
+       <class name="testingpages.EonRegisterTests"/> 
+        <class name="testingpages.EonUserHomePageTests" />  
+   </classes>
+   </package>
+   </test>
+   </suite>
+  
