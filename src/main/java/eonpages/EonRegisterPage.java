@@ -8,7 +8,7 @@ public class EonRegisterPage extends EonHomePage {
 		return title;
 		
 	}
-	public void userRegistrationpage(){
+	public void userRegistration(){
 		
 	}
 

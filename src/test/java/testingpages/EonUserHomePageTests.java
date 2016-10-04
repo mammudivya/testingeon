@@ -22,7 +22,7 @@ public class EonUserHomePageTests extends EonUserHomePage {
 		for(String windowHandle : driver.getWindowHandles()){
 			driver.switchTo().window(windowHandle);
 		}
-	}
+	 }
 	
 	}
 
