@@ -7,6 +7,9 @@ import eonpages.EonLoginPage;
 
 public class EonLoginTests extends EonLoginPage{
 	
+	public static String username = "";
+	public static String password = "";
+	
 	@Test
 	public void verifyEonLoginPageTitle(){
 		getEonHomePage();
@@ -17,6 +20,7 @@ public class EonLoginTests extends EonLoginPage{
 			driver.switchTo().window(widowHandle);
 		}
 		Assert.assertEquals(getEonLonginPageTitle(), ltitle);
+		login(username,password);
 		driver.switchTo().window(cmdInhomePage);
 	}
 

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testingpages.EonLoginTests">
+      <class name="testingpages.EonRegisterTests">
         <methods>
           <include name="start"/>
+          <include name="verifyEonRegisterpagetext"/>
           <include name="quit"/>
-          <include name="verifyEonLoginPageTitle"/>
         </methods>
-      </class> <!-- testingpages.EonLoginTests -->
+      </class> <!-- testingpages.EonRegisterTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

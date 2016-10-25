@@ -1,67 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Testingpages" duration-ms="44659" started-at="2016-10-04T19:26:31Z" finished-at="2016-10-04T19:27:16Z">
+  <suite name="Default suite" duration-ms="35641" started-at="2016-10-10T14:25:26Z" finished-at="2016-10-10T14:26:01Z">
     <groups>
     </groups>
-    <test name="Eon regression tests" duration-ms="44659" started-at="2016-10-04T19:26:31Z" finished-at="2016-10-04T19:27:16Z">
-      <class name="testingpages.EonUserHomePageTests">
-        <test-method status="PASS" signature="start()[pri:0, instance:testingpages.EonUserHomePageTests@5419f379]" name="start" is-config="true" duration-ms="2243" started-at="2016-10-04T20:27:02Z" finished-at="2016-10-04T20:27:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method status="PASS" signature="verifyEonUserHomePage()[pri:0, instance:testingpages.EonUserHomePageTests@5419f379]" name="verifyEonUserHomePage" duration-ms="11358" started-at="2016-10-04T20:27:04Z" finished-at="2016-10-04T20:27:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyEonUserHomePage -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:testingpages.EonUserHomePageTests@5419f379]" name="quit" is-config="true" duration-ms="227" started-at="2016-10-04T20:27:15Z" finished-at="2016-10-04T20:27:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- testingpages.EonUserHomePageTests -->
-      <class name="testingpages.EonLoginTests">
-        <test-method status="PASS" signature="start()[pri:0, instance:testingpages.EonLoginTests@58651fd0]" name="start" is-config="true" duration-ms="2392" started-at="2016-10-04T20:26:40Z" finished-at="2016-10-04T20:26:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method status="PASS" signature="verifyEonLoginPageTitle()[pri:0, instance:testingpages.EonLoginTests@58651fd0]" name="verifyEonLoginPageTitle" duration-ms="9141" started-at="2016-10-04T20:26:43Z" finished-at="2016-10-04T20:26:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyEonLoginPageTitle -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:testingpages.EonLoginTests@58651fd0]" name="quit" is-config="true" duration-ms="321" started-at="2016-10-04T20:26:52Z" finished-at="2016-10-04T20:26:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- testingpages.EonLoginTests -->
-      <class name="testingpages.EonRegisterTests">
-        <test-method status="PASS" signature="start()[pri:0, instance:testingpages.EonRegisterTests@4520ebad]" name="start" is-config="true" duration-ms="2280" started-at="2016-10-04T20:26:52Z" finished-at="2016-10-04T20:26:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method status="PASS" signature="verifyEonRegisterPageTitle()[pri:0, instance:testingpages.EonRegisterTests@4520ebad]" name="verifyEonRegisterPageTitle" duration-ms="7105" started-at="2016-10-04T20:26:54Z" finished-at="2016-10-04T20:27:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyEonRegisterPageTitle -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:testingpages.EonRegisterTests@4520ebad]" name="quit" is-config="true" duration-ms="315" started-at="2016-10-04T20:27:01Z" finished-at="2016-10-04T20:27:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- testingpages.EonRegisterTests -->
+    <test name="Default test" duration-ms="35641" started-at="2016-10-10T14:25:26Z" finished-at="2016-10-10T14:26:01Z">
       <class name="testingpages.EonHomePageTests">
-        <test-method status="PASS" signature="start()[pri:0, instance:testingpages.EonHomePageTests@6cc4c815]" name="start" is-config="true" duration-ms="2982" started-at="2016-10-04T20:26:31Z" finished-at="2016-10-04T20:26:34Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:testingpages.EonHomePageTests@5034c75a]" name="start" is-config="true" duration-ms="3178" started-at="2016-10-10T15:25:26Z" finished-at="2016-10-10T15:25:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="verifyEonHomePage()[pri:0, instance:testingpages.EonHomePageTests@6cc4c815]" name="verifyEonHomePage" duration-ms="5927" started-at="2016-10-04T20:26:34Z" finished-at="2016-10-04T20:26:40Z">
+        <test-method status="PASS" signature="verifyEonHomePage()[pri:0, instance:testingpages.EonHomePageTests@5034c75a]" name="verifyEonHomePage" duration-ms="18528" started-at="2016-10-10T15:25:29Z" finished-at="2016-10-10T15:25:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEonHomePage -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:testingpages.EonHomePageTests@6cc4c815]" name="quit" is-config="true" duration-ms="341" started-at="2016-10-04T20:26:40Z" finished-at="2016-10-04T20:26:40Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:testingpages.EonHomePageTests@5034c75a]" name="quit" is-config="true" duration-ms="315" started-at="2016-10-10T15:25:47Z" finished-at="2016-10-10T15:25:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="start()[pri:0, instance:testingpages.EonHomePageTests@5034c75a]" name="start" is-config="true" duration-ms="2239" started-at="2016-10-10T15:25:48Z" finished-at="2016-10-10T15:25:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="verifyLonginDisplayed()[pri:0, instance:testingpages.EonHomePageTests@5034c75a]" name="verifyLonginDisplayed" duration-ms="11175" started-at="2016-10-10T15:25:50Z" finished-at="2016-10-10T15:26:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLonginDisplayed -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testingpages.EonHomePageTests@5034c75a]" name="quit" is-config="true" duration-ms="174" started-at="2016-10-10T15:26:01Z" finished-at="2016-10-10T15:26:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- testingpages.EonHomePageTests -->
-    </test> <!-- Eon regression tests -->
-  </suite> <!-- Testingpages -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

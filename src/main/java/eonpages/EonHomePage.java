@@ -30,5 +30,18 @@ public class EonHomePage extends Driver {
 		llink.click();
 		return new EonLoginPage();
 		}
+	
+	/*public boolean loginLinkDisplayed(){
+		WebElement login = driver.findElementByLinkText("Login");
+		return login.isDisplayed();	
+	}
+	public boolean registerlinkDisplayed(){
+		WebElement register = driver.findElementByLinkText("Register");
+		return register.isDisplayed();
+	}*/
+	public boolean loginLinkisEnabled(){
+		WebElement login = driver.findElementByLinkText("Login");
+		return login.isEnabled();
+	}
 
 }
