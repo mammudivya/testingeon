@@ -1,5 +1,10 @@
 /target/
+/test-output/
+*.xml
+*.html
 *.classpath
 *.project
 *.settings
 *.test-output
+*.test-output/old
+*.test-output/default
